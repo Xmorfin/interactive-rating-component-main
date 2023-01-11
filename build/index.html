@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-black h-screen">
+    <!-- Flex Container-->
+    <main class="flex container mx-auto justify-center items-center h-full">
+      <!-- Section hero -->
+      <section class="mx-10 px-4 py-6 bg-slate-800 rounded-xl">
+        <!-- Icons Star -->
+        <div
+          class="h-8 w-8 rounded-full bg-slate-700 flex justify-center items-center mb-4"
+        >
+          <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+              fill="#FC7614"
+            />
+          </svg>
+        </div>
+        <!-- Heading -->
+        <div class="font-bold text-2xl text-white my-4">
+          <h1>How did we do?</h1>
+        </div>
+        <!-- Paragraf -->
+        <div class="text-gray-500 font-medium mb-4">
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <!-- Button Group -->
+        <div class="flex items-center justify-center my-6">
+          <div class="inline-flex focus:shadow-lg space-x-2" role="toolbar">
+            <button
+              type="button"
+              class="rounded-full px-6 py-2.5 w-12 h-12 flex justify-center items-center bg-gray-800 text-white font-medium text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out"
+            >
+              1
+            </button>
+            <button
+              type="button"
+              class="rounded-full px-6 py-2.5 w-12 h-12 flex justify-center items-center bg-gray-800 text-white font-medium text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out"
+            >
+              2
+            </button>
+            <button
+              type="button"
+              class="rounded-full px-6 py-2.5 w-12 h-12 flex justify-center items-center bg-gray-800 text-white font-medium text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out"
+            >
+              3
+            </button>
+            <button
+              type="button"
+              class="rounded-full px-6 py-2.5 w-12 h-12 flex justify-center items-center bg-gray-800 text-white font-medium text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out"
+            >
+              4
+            </button>
+            <button
+              type="button"
+              class="rounded-full inline-block px-6 py-2.5 w-12 h-12 flex justify-center items-center bg-gray-800 text-white font-medium text-xs leading-tight uppercase hover:bg-blue-700 focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800 transition duration-150 ease-in-out"
+            >
+              5
+            </button>
+          </div>
+        </div>
+        <!-- Button Submit -->
+        <div class="flex justify-center">
+          <div>
+            <button
+              type="button"
+              class="inline-block px-6 py-2.5 bg-orange-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Thank You -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">LiL B</a>.
+    </div>
+    <!-- Rating state start -->
+
+    <!-- How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit -->
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <!-- You selected -->
+    <!-- Add rating here -->
+    <!-- out of 5 -->
+
+    <!-- Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+    <!-- Thank you state end -->
+  </body>
+  <script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+</html>
